@@ -1,0 +1,19 @@
+{
+	"name": "leprechaun/bendito",
+	"description": "Text editor app made with PHP, MVC and jQuery AJAX",
+	"type": "project",
+	"autoload": {
+		"psr-4": {
+			"MVC\\": "./",
+			"Controllers\\": "./controllers",
+			"Model\\": "./models"
+		}
+	},
+	"authors": [
+		{
+			"name": "serdna1",
+			"email": "andrescaot@gmail.com"
+		}
+	],
+	"require": {}
+}
