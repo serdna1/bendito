@@ -5,7 +5,7 @@
 		include_once __DIR__ . "/../templates/alerts.php";
 	?>
 	
-	<form class="form" method="POST" action="/bendito/src/index.php">
+	<form class="form" method="POST" action="/">
 		<div class="field">
 			<label for="email">Email</label>
 			<input
@@ -28,5 +28,5 @@
 		<input type="submit" value="Login">
 	</form>
 	
-	<a class="create-account-anchor" href="/bendito/src/index.php/create-account">¿Don't have an account yet? Create account</a>
+	<a class="create-account-anchor" href="/create-account">¿Don't have an account yet? Create account</a>
 </section>

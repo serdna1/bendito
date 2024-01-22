@@ -11,7 +11,7 @@ class AuthController {
 		//If the user is logged redirect them to the editor page
 		session_start();
 		if (isset($_SESSION['login'])) {
-			header('Location: /bendito/src/index.php/editor');
+			header('Location: /editor');
 		}
 		
 		$alerts = [];
@@ -36,7 +36,7 @@ class AuthController {
 						$_SESSION['login'] = true;
 
 						// Redirect to the editor page
-						header('Location: /bendito/src/index.php/editor');
+						header('Location: /editor');
 					}
 				} else {
 					User::setAlert('error', 'Incorrect email or password');
@@ -55,7 +55,7 @@ class AuthController {
 	public static function logout() {
 		session_start();
 		session_destroy();
-		header('Location: /bendito/src/index.php');
+		header('Location: /');
 	}
 
 	public static function create(Router $router) {
@@ -80,7 +80,7 @@ class AuthController {
 					$result = $user->save();
 
 					if($result) {
-						header('Location: /bendito/src/index.php/created');
+						header('Location: /created');
 					}
 				}
 			}

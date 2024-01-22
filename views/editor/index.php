@@ -20,6 +20,6 @@
       integrity='sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/'
       crossorigin='anonymous'
     ></script>
-    <script src='/bendito/src/js/editor.js'></script>
+    <script src='/js/editor.js'></script>
   ";
 ?>

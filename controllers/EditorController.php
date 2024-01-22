@@ -11,7 +11,7 @@ class EditorController {
 		//If the user is logged redirect them to the login page
 		session_start();
 		if (!isset($_SESSION['login'])) {
-			header('Location: /bendito/src/index.php');
+			header('Location: /');
 		}
 		
 		$router->render('editor/index', [

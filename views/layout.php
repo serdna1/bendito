@@ -7,7 +7,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto+Mono:ital@0;1&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="/bendito/src/css/app.css">
+	<link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
 

@@ -4,6 +4,6 @@
 		if (isset($_SESSION['login'])) { 
 	?>
 		<p>Hello, <?php echo $_SESSION['username'] ?? ''; ?></p>
-		<a href="/bendito/src/index.php/logout">Logout</a>
+		<a href="/logout">Logout</a>
 	<?php } ?>
 </nav>
