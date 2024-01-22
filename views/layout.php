@@ -3,16 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>App Title</title>
-	<!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;900&display=swap" rel="stylesheet">  -->
-	<link rel="stylesheet" href="../src/css/app.css">
+	<title>Ben Dito</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto+Mono:ital@0;1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/bendito/src/css/app.css">
 </head>
 <body>
-	<p>layout</p>
+
+	<?php 
+    include_once __DIR__ . "/templates/navbar.php";
+	?>
 
 	<?php echo $content; ?>
-
-	<p>layout</p>
 
 	<?php
 		echo $script ?? '';

@@ -1,0 +1,9 @@
+.account-created-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.account-created-section p {
+  font-size: 2rem;
+}

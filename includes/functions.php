@@ -12,11 +12,3 @@ function s($html) : string {
 	$s = htmlspecialchars($html);
 	return $s;
 }
-
-// Checks if the user is authenticated.
-// If not, redirects to /
-function isAuth() : void {
-	if(!isset($_SESSION['login'])) {
-		header('Location: /');
-	}
-}

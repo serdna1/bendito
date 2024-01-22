@@ -1,0 +1,12 @@
+nav {
+  /* position: fixed; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+  height: 5rem;
+  padding: 0 2.5rem;
+  width: 100%;
+  background-color: greenyellow;
+}
+

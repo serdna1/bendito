@@ -1,0 +1,35 @@
+.form {
+	margin-top: 1rem;
+	width: 100%;
+}
+
+.field {
+	display: flex;
+	margin-bottom: 2rem;
+	align-items: center;
+}
+
+.field label {
+	flex: 0 0 6rem;
+}
+
+.field input {
+	flex: 1;
+	padding: 1.25rem;
+	border-radius: 1rem;
+}
+
+.field input:focus {
+  background-color: yellowgreen;
+}
+
+input[type=submit]{
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  background-color: yellowgreen;
+}
+
+input[type=submit]:hover{
+  opacity: 80%;
+}

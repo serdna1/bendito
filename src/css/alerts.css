@@ -1,0 +1,16 @@
+.alerts-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.alert {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: red;
+  color: white;
+  width: 100%;
+  text-align: center;
+}

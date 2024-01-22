@@ -1,2 +1,6 @@
 db
 /vendor/
+
+# por ahora
+classes
+controllers/AuthController-futuro.php

@@ -76,7 +76,7 @@ class ActiveRecord {
 		return $sanitized;
 	}
 
-	// Sincroniza DB with object
+	// Sincronize DB with object
 	public function sincronize($args=[]) { 
 		foreach ($args as $key => $value) {
 		  if (property_exists($this, $key) && !is_null($value)) {
