@@ -1,5 +1,6 @@
 db
 /vendor/
+includes/.env
 
 # por ahora
 classes
